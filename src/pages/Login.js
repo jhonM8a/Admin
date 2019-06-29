@@ -1,0 +1,22 @@
+import React from "react";
+import NavBar from "../components/NavBar";
+import LoginForm from "../components/LoginForm";
+
+class Login extends React.Component {
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <LoginForm />
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Login;
