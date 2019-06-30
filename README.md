@@ -1,7 +1,7 @@
 # Admin Module
 
 
- [Table of Contents]
+* [Contents]
     * [Login](#Login)
     * [Deploy](#Deploy)
 ## Login
