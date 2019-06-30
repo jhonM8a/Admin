@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./global.css";
-import Login from "./pages/Login";
 
+import App from "./components/App";
 const container = document.getElementById("app");
 
-ReactDOM.render(<Login />, container);
+ReactDOM.render(<App />, container);
