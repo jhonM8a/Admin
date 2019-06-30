@@ -23,12 +23,12 @@ body {
 }
 
 .card-header h3 {
-  color: white;
+  color: black;
 }
 
 .input-group-prepend span {
   width: 50px;
-  background-color: #ffc312;
+  background-color: #69caf7;
   color: black;
   border: 0 !important;
 }
@@ -39,7 +39,7 @@ input:focus {
 }
 .login_btn {
   color: black;
-  background-color: #ffc312;
+  background-color: #69caf7;
   width: 100px;
 }
 

@@ -7,7 +7,7 @@ class LoginForm extends React.Component {
         <div className="d-flex justify-content-center h-100">
           <div className="card">
             <div className="card-header">
-              <h3>Sign In</h3>
+              <h3>Admin Module</h3>
             </div>
             <div className="card-body">
               <form>
@@ -39,7 +39,7 @@ class LoginForm extends React.Component {
                 <div className="form-group">
                   <input
                     type="submit"
-                    value="Login"
+                    value="Sign In "
                     className="btn float-right login_btn"
                   />
                 </div>
