@@ -1,12 +1,9 @@
 # Admin Module
 
-**Table of Contents**
 
-[TOCM]
-
-[TOC]
-
-
+ [#**Table of Contents**]
+    * [Login](#Login)
+    * [Features](#features)
 ## Login
 
 Simple access module to the **CMS**. This is a service that validates the credentials of those users who are accredited to administer the content.
