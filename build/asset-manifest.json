@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6a3df9a.chunk.css",
-    "main.js": "/static/js/main.b8766d74.chunk.js",
-    "main.js.map": "/static/js/main.b8766d74.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.0624914a.chunk.css": "/static/css/2.0624914a.chunk.css",
-    "static/js/2.4719863a.chunk.js": "/static/js/2.4719863a.chunk.js",
-    "static/js/2.4719863a.chunk.js.map": "/static/js/2.4719863a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.260769beee2d0eaeb29f0cadb7ada4fd.js": "/precache-manifest.260769beee2d0eaeb29f0cadb7ada4fd.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.0624914a.chunk.css.map": "/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.c6a3df9a.chunk.css.map": "/static/css/main.c6a3df9a.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.6841730f.svg"
+    "main.css": "/admin/static/css/main.c6a3df9a.chunk.css",
+    "main.js": "/admin/static/js/main.b8766d74.chunk.js",
+    "main.js.map": "/admin/static/js/main.b8766d74.chunk.js.map",
+    "runtime~main.js": "/admin/static/js/runtime~main.b3695f6e.js",
+    "runtime~main.js.map": "/admin/static/js/runtime~main.b3695f6e.js.map",
+    "static/css/2.0624914a.chunk.css": "/admin/static/css/2.0624914a.chunk.css",
+    "static/js/2.4719863a.chunk.js": "/admin/static/js/2.4719863a.chunk.js",
+    "static/js/2.4719863a.chunk.js.map": "/admin/static/js/2.4719863a.chunk.js.map",
+    "index.html": "/admin/index.html",
+    "precache-manifest.fd64ef73b7be850c77000a9cf1846a51.js": "/admin/precache-manifest.fd64ef73b7be850c77000a9cf1846a51.js",
+    "service-worker.js": "/admin/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/admin/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.c6a3df9a.chunk.css.map": "/admin/static/css/main.c6a3df9a.chunk.css.map",
+    "static/media/logo.svg": "/admin/static/media/logo.6841730f.svg"
   }
 }
