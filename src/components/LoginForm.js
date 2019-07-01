@@ -1,11 +1,41 @@
 import React from "react";
+import { Redirect } from "react-router";
 import "./styles/LoginForm.css";
 class LoginForm extends React.Component {
+  state = {
+    redirect: false,
+    userName: "",
+    password: "",
+    errorCredentials: false,
+    colorBorder: ""
+  };
+
+  hanldeChangeUserName = e => {
+    this.setState({
+      userName: e.target.value
+    });
+  };
+
+  hanldeChangePassword = e => {
+    this.setState({
+      password: e.target.value
+    });
+  };
   handleSubmit = e => {
-    console.log("submitFomulario");
+    e.preventDefault();
+    if (this.state.userName === "jhon" && this.state.password === "test123") {
+      this.setState({ redirect: true });
+    }
+    this.setState({
+      errorCredentials: true,
+      colorBorder: "red"
+    });
   };
 
   render() {
+    if (this.state.redirect) {
+      return <Redirect push to="/home" />;
+    }
     return (
       <div className="body">
         <div className="d-flex justify-content-center h-100">
@@ -25,6 +55,8 @@ class LoginForm extends React.Component {
                     type="text"
                     className="form-control"
                     placeholder="username"
+                    onChange={this.hanldeChangeUserName}
+                    style={{ borderColor: this.state.colorBorder }}
                   />
                 </div>
 
@@ -38,6 +70,8 @@ class LoginForm extends React.Component {
                     type="password"
                     className="form-control"
                     placeholder="password"
+                    onChange={this.hanldeChangePassword}
+                    style={{ borderColor: this.state.colorBorder }}
                   />
                 </div>
                 <div className="form-group">
@@ -47,6 +81,7 @@ class LoginForm extends React.Component {
                     className="btn float-right login_btn"
                   />
                 </div>
+                {this.state.errorCredentials && <h5>Invalid Credentials</h5>}
               </form>
             </div>
             <div className="card-footer">
