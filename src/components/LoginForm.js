@@ -1,6 +1,10 @@
 import React from "react";
 import "./styles/LoginForm.css";
 class LoginForm extends React.Component {
+  handleSubmit = e => {
+    console.log("submitFomulario");
+  };
+
   render() {
     return (
       <div className="body">
@@ -10,7 +14,7 @@ class LoginForm extends React.Component {
               <h3>Admin Module</h3>
             </div>
             <div className="card-body">
-              <form>
+              <form onSubmit={this.handleSubmit}>
                 <div className="input-group form-group">
                   <div className="input-group-prepend">
                     <span className="input-group-text">
@@ -39,7 +43,7 @@ class LoginForm extends React.Component {
                 <div className="form-group">
                   <input
                     type="submit"
-                    value="Sign In "
+                    value="Sign In"
                     className="btn float-right login_btn"
                   />
                 </div>
