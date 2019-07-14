@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import FooterCopiRight from "../components/FooterCopyRight";
+import NavBar from "../components/NavBar";
 import "./styles/NoMatch.css";
 
 class NoMatch extends React.Component {
   render() {
     return (
       <div>
+        <NavBar />
         <section className="error-container">
           <span>
             <span>4</span>

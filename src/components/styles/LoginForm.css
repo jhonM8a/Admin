@@ -47,3 +47,7 @@ input:focus {
   color: black;
   background-color: white;
 }
+h5 {
+  text-align: center;
+  color: red;
+}
