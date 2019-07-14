@@ -1,8 +1,26 @@
 import React from "react";
-
+import Sidebar from "../components/LeftSideBar";
+import Footer from "../components/FooterCopyRight";
+import BarMenu from "../components/BarMenu";
+import "./styles/Home.css";
 class Home extends React.Component {
+  constructor() {
+    super();
+    this.state = { contentNow: false };
+  }
   render() {
-    return <h1>Hola Home</h1>;
+    return (
+      <div>
+        <div className="wrapper">
+          <Sidebar userName={"Admin User"} rol={"admin"} />
+          <div className="content">
+            <BarMenu />
+            <h3>Hola contenido</h3>
+          </div>
+        </div>
+        <Footer />
+      </div>
+    );
   }
 }
 

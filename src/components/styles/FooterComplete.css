@@ -1,0 +1,22 @@
+/* Footer */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+section {
+  padding: 60px 10;
+}
+
+section .section-title {
+  text-align: center;
+  color: #1c3643;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.footer {
+  background: #1c3643 !important;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
