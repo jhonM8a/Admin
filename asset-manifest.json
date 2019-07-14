@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/admin/static/css/main.c6a3df9a.chunk.css",
-    "main.js": "/admin/static/js/main.b8766d74.chunk.js",
-    "main.js.map": "/admin/static/js/main.b8766d74.chunk.js.map",
-    "runtime~main.js": "/admin/static/js/runtime~main.b3695f6e.js",
-    "runtime~main.js.map": "/admin/static/js/runtime~main.b3695f6e.js.map",
-    "static/css/2.0624914a.chunk.css": "/admin/static/css/2.0624914a.chunk.css",
-    "static/js/2.4719863a.chunk.js": "/admin/static/js/2.4719863a.chunk.js",
-    "static/js/2.4719863a.chunk.js.map": "/admin/static/js/2.4719863a.chunk.js.map",
-    "index.html": "/admin/index.html",
-    "precache-manifest.fd64ef73b7be850c77000a9cf1846a51.js": "/admin/precache-manifest.fd64ef73b7be850c77000a9cf1846a51.js",
-    "service-worker.js": "/admin/service-worker.js",
-    "static/css/2.0624914a.chunk.css.map": "/admin/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.c6a3df9a.chunk.css.map": "/admin/static/css/main.c6a3df9a.chunk.css.map",
-    "static/media/logo.svg": "/admin/static/media/logo.6841730f.svg"
+    "main.css": "/jhonM8a/admin/static/css/main.d3663975.chunk.css",
+    "main.js": "/jhonM8a/admin/static/js/main.fbc6e492.chunk.js",
+    "main.js.map": "/jhonM8a/admin/static/js/main.fbc6e492.chunk.js.map",
+    "runtime~main.js": "/jhonM8a/admin/static/js/runtime~main.207c6dc1.js",
+    "runtime~main.js.map": "/jhonM8a/admin/static/js/runtime~main.207c6dc1.js.map",
+    "static/css/2.0624914a.chunk.css": "/jhonM8a/admin/static/css/2.0624914a.chunk.css",
+    "static/js/2.c82c37b6.chunk.js": "/jhonM8a/admin/static/js/2.c82c37b6.chunk.js",
+    "static/js/2.c82c37b6.chunk.js.map": "/jhonM8a/admin/static/js/2.c82c37b6.chunk.js.map",
+    "index.html": "/jhonM8a/admin/index.html",
+    "precache-manifest.8a32560f405fc34174103461681dca47.js": "/jhonM8a/admin/precache-manifest.8a32560f405fc34174103461681dca47.js",
+    "service-worker.js": "/jhonM8a/admin/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/jhonM8a/admin/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.d3663975.chunk.css.map": "/jhonM8a/admin/static/css/main.d3663975.chunk.css.map",
+    "static/media/logo.svg": "/jhonM8a/admin/static/media/logo.6841730f.svg"
   }
 }
